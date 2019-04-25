@@ -1,6 +1,6 @@
 package main
-import "Fmt"
+import "fmt"
 
 Func main() {
-  Fmt.Println("Hello world")
+  fmt.Println("Hello world")
 }
