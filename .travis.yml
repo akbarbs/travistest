@@ -1,4 +1,7 @@
 language: go
+services:
+  _ docker
+
 script:
-  - echo hello
-  - env
+  - docker version
+  - docker-compose --version
